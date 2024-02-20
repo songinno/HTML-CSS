@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    gap: 5px;
+    width: 500px;
+    height: 100px;
+    background: lightgray;
+}
+
+/* ! line-height 이용 */
+/* .container .item {
+    width: 50px;
+    height: 50px;
+    background: skyblue;
+
+    text-align: center;
+    line-height: 50px;
+} */
+
+/* ! flex 이용 */
+.container .item {
+    width: 50px;
+    height: 50px;
+    background: skyblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
